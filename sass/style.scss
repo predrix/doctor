@@ -1,3 +1,78 @@
 @import 'reset.scss';
 @import 'zmienne.scss';
 @import 'miximy.scss';
+
+
+/*===== custon =====*/
+h1 {
+	font-weight: bold !important;
+}
+
+
+
+
+
+
+
+
+
+/*===== form =====*/
+#form {
+	background: url('../images/form/bg1.jpg') no-repeat center center / cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	span {
+		color: $light-blue;
+	}
+	.sub-title {
+		font-size: 26px;
+		margin-bottom: 20px;
+		font-weight: 500;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	.check-box {
+		display: block;
+		background-color: #fff;
+		opacity: 0.8;
+		border-radius: 5px;
+		padding: 10px 0;
+	}
+	.check {
+		display: flex;
+		justify-content: left;
+		margin: 10px;
+		i {
+			margin: 10px;
+			font-size: 30px;
+			color: $green;
+		}
+		p {
+			margin-left: 5px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

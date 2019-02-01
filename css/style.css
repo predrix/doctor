@@ -78,5 +78,17 @@ h1 {
       color: #69a30b; }
     #form .check p {
       margin-left: 5px; }
+  #form .black {
+    background-color: #353535;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px; }
+    #form .black i {
+      margin: 0 10px; }
+    #form .black p {
+      font-size: 50px !important; }
+    #form .black h4 {
+      margin-right: 6px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -46,8 +46,33 @@ img {
   height: 100%; }
 
 /*===== custon =====*/
+section {
+  font-family: 'Monda', sans-serif; }
+
 h1 {
   font-weight: bold !important; }
+
+button {
+  color: #fff;
+  background-color: #3CD1EF;
+  height: 45px;
+  border: none;
+  font-weight: bold; }
+
+.title {
+  text-align: center; }
+  .title h1 {
+    font-weight: bold !important; }
+  .title p {
+    font-size: 18px;
+    color: #686868; }
+
+.title:after {
+  content: "";
+  color: #686868;
+  width: 100px;
+  border: 1px solid #686868;
+  margin: 0 auto; }
 
 /*===== form =====*/
 #form {
@@ -55,7 +80,9 @@ h1 {
   padding-top: 50px;
   padding-bottom: 50px; }
   #form span {
-    color: #299dcc; }
+    color: #3CD1EF; }
+  #form .container {
+    margin-bottom: 30px; }
   #form .sub-title {
     font-size: 26px;
     margin-bottom: 20px;
@@ -77,18 +104,125 @@ h1 {
       font-size: 30px;
       color: #69a30b; }
     #form .check p {
-      margin-left: 5px; }
+      margin-left: 5px;
+      font-size: 15px; }
+  #form .round {
+    border-radius: 5px; }
   #form .black {
     background-color: #353535;
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 10px; }
+    padding: 16px;
+    margin: 0;
+    width: 100%; }
     #form .black i {
       margin: 0 10px; }
     #form .black p {
       font-size: 50px !important; }
     #form .black h4 {
       margin-right: 6px; }
+  #form .white {
+    background-color: #fff;
+    padding-bottom: 20px;
+    border: none; }
+    #form .white p {
+      margin-bottom: 0;
+      text-align: left;
+      font-weight: 500;
+      color: #353535; }
+    #form .white input {
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid #bababa;
+      outline: none;
+      height: 35px;
+      margin: 0 auto; }
+      #form .white input:focus {
+        border-color: #3CD1EF;
+        transition: all ease-in-out 0.3s; }
+    #form .white button {
+      width: 95%;
+      margin: 0 auto;
+      border-radius: 5px;
+      margin-top: 20px; }
+      #form .white button:hover {
+        background-color: #686868; }
+  #form .formula {
+    margin-top: 20px;
+    width: 100%; }
+    #form .formula p {
+      font-size: 18px; }
+  #form .call {
+    margin-left: 2.5%;
+    margin-top: 15px;
+    text-align: left; }
+
+/* ====== info =====*/
+#info {
+  padding-top: 50px; }
+  #info .col-md-3 {
+    margin-top: 30px; }
+
+.package {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .package a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3CD1EF;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+    cursor: auto; }
+    .package a:hover {
+      text-decoration: none; }
+    .package a i {
+      font-size: 40px;
+      color: #fff; }
+  .package h4 {
+    font-weight: bold !important;
+    margin-bottom: 30px; }
+  .package p {
+    color: #686868;
+    font-weight: thin; }
+
+/* ===== emergency =====*/
+#emergency {
+  margin-bottom: 80px;
+  margin-top: 40px; }
+  #emergency .container {
+    display: block;
+    background-color: #f8f8f9;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey; }
+    #emergency .container .col-sm-12 {
+      margin-top: 50px;
+      margin-bottom: 40px; }
+    #emergency .container .col-md-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+#emergency h2 {
+  font-weight: 900 !important; }
+#emergency p {
+  font-weight: thin;
+  color: #686868; }
+#emergency button {
+  border-radius: 5px; }
+  #emergency button:hover {
+    background-color: #686868; }
+
+/* ===== logo =====*/
+#logo {
+  padding-top: 80px;
+  margin-bottom: 80px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
     <title></title>
   </head>
   <body>
@@ -77,34 +78,36 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div>
+          <div class="col-md-6 round">
+            <div class="row">
               <div class="black">
                 <i class="fas fa-edit"></i>
                 <p><h4>Make an appointment</h4> (It's free!)</p>
               </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div>
-                    <p>First Name</p>
-                    <input></input>
-                  </div>
-                  <div>
-                    <p>Last Name</p>
-                    <input></input>
-                  </div>
+            </div>
+            <div class="row white">
+              <div class="col-md-6">
+                <div class="formula">
+                  <p>First Name</p>
+                  <input></input>
                 </div>
-                <div class="col-md-6">
-                  <div>
-                    <p>Phone number<p>
-                    <input></input>
-                  </div>
-                  <div>
-                    <p>Email</p>
-                    <input></input>
-                  </div>
-                <button>SUBMIT</button>
-                <p>*We will contact you by phone/email later</p>
+                <div class="formula">
+                  <p>Last Name</p>
+                  <input></input>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formula">
+                  <p>Phone number</p>
+                  <input></input>
+                </div>
+                <div class="formula">
+                  <p>Email</p>
+                  <input></input>
+                </div>
+              </div>
+              <button>SUBMIT</button>
+              <p class="call">*We will contact you by phone/email later</p>
             </div>
           </div>
         </div>
@@ -114,33 +117,33 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <div>
-              <i></i>
-              <h5>Make an appointment</h5>
+            <div class="package text-center">
+              <a href="#"><i class="fas fa-check"></i></a>
+              <h4>Make an appointment</h4>
               <p>Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                 ut utamur molestiae vix, graecis eligendi ne.</p>
             </div>
           </div>
           <div class="col-md-3">
-            <div>
-              <i></i>
-              <h5>Make an appointment</h5>
+            <div class="package text-center">
+              <a href="#"><i class="far fa-list-alt"></i></a>
+              <h4>Make an appointment</h4>
               <p>Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                ut utamur molestiae vix, graecis eligendi ne.</p>
             </div>
           </div>
           <div class="col-md-3">
-            <div>
-              <i></i>
-              <h5>Make an appointment</h5>
+            <div class="package text-center">
+              <a href="#"><i class="fas fa-user-md"></i></a>
+              <h4>Make an appointment</h4>
               <p>Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                ut utamur molestiae vix, graecis eligendi ne.</p>
             </div>
           </div>
           <div class="col-md-3">
-            <div>
-              <i></i>
-              <h5>Make an appointment</h5>
+            <div class="package text-center">
+              <a href="#"><i class="fas fa-hospital-alt"></i></a>
+              <h4>Make an appointment</h4>
               <p>Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                 ut utamur molestiae vix, graecis eligendi ne.</p>
             </div>
@@ -149,21 +152,25 @@
       </div>
     </section>
     <section id="emergency">
-      <div>
-        <div>
-          <h3>In an emergency? Need help now?</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit uisque interdum ante eget faucibus</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <h2>In an emergency? Need help now?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit uisque interdum ante eget faucibus</p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <button>BOOK AN APPOINTMENT</button>
+          </div>
         </div>
-        <button>BOOK AN APPOINTMENT</button>
       </div>
     </section>
     <section id="options">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img>
+            <img src="images/options/img-1.jpg">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div>
               <i></i>
               <div>
@@ -185,6 +192,8 @@
                 <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
               </div>
             </div>
+          </div>
+          <div class="col-md-3">
             <div>
               <i></i>
               <div>
@@ -256,7 +265,7 @@
     </section>
     <section id="facillity">
       <div class="title">
-        <h2>Our facillities</h2>
+        <h1>Our facillities</h1>
         <p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
       </div>
       <div></div>
@@ -264,7 +273,7 @@
     </section>
     <section id="packages">
       <div class="title">
-        <h2>Health packages</h2>
+        <h1>Health packages</h1>
         <p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
       </div>
       <div>
@@ -345,14 +354,25 @@
     </section>
     <section id="logo">
       <div class="title">
-        <h2>Our partner</h2>
+        <h1>Our partner</h1>
         <p>Take charge of your health today with our specially designed health packages</p>
       </div>
       <div>
-        <div><p><span>PHAR</span>MACY</p></div>
-        <div><i></i><p>DUMBHOSPITAL</p></div>
-        <div><i></i><p>STAINLESS</p></div>
-        <div><p>// MAINSTREAM</p></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/logo/1.jpg">
+          </div>
+          <div class="col-md-3">
+            <img src="images/logo/2.jpg">
+          </div>
+          <div class="col-md-3">
+            <img src="images/logo/3.jpg">
+          </div>
+          <div class="col-md-3">
+            <img src="images/logo/4.jpg">
+          </div>
+        </div>
       </div>
     </section>
     <section id="contact">

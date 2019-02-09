@@ -6,7 +6,7 @@
 @mixin pseudoelement {
   content: "";
   position: absolute;
-  display: block;
+  display: inline-block;
 }
 @mixin full-screen {
   width: 100%;

@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -127,7 +127,7 @@
           <div class="col-md-3">
             <div class="package text-center">
               <a href="#"><i class="far fa-list-alt"></i></a>
-              <h4>Make an appointment</h4>
+              <h4>Choose your package</h4>
               <p>Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                ut utamur molestiae vix, graecis eligendi ne.</p>
             </div>
@@ -135,7 +135,7 @@
           <div class="col-md-3">
             <div class="package text-center">
               <a href="#"><i class="fas fa-user-md"></i></a>
-              <h4>Make an appointment</h4>
+              <h4>Help by specialist</h4>
               <p>Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                ut utamur molestiae vix, graecis eligendi ne.</p>
             </div>
@@ -143,7 +143,7 @@
           <div class="col-md-3">
             <div class="package text-center">
               <a href="#"><i class="fas fa-hospital-alt"></i></a>
-              <h4>Make an appointment</h4>
+              <h4>Get diagnostic report</h4>
               <p>Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                 ut utamur molestiae vix, graecis eligendi ne.</p>
             </div>
@@ -168,25 +168,25 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/options/img-1.jpg">
+            <img class="img-fluid" src="images/options/img-1.jpg">
           </div>
           <div class="col-md-3">
-            <div>
-              <i></i>
+            <div class="pack">
+              <i class="fas fa-stethoscope"></i>
               <div>
                 <h4>Medical checkup</h4>
                 <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
               </div>
             </div>
-            <div>
-              <i></i>
+            <div class="pack">
+              <i class="fas fa-wheelchair"></i>
               <div>
                 <h4>Gyn care</h4>
                 <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
               </div>
             </div>
-            <div>
-              <i></i>
+            <div class="pack">
+              <i class="fas fa-plus-square"></i>
               <div>
                 <h4>Nursing services</h4>
                 <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
@@ -194,22 +194,22 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div>
-              <i></i>
+            <div class="pack">
+              <i class="fa fa-h-square"></i>
               <div>
                 <h4>Neurology</h4>
                 <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
               </div>
             </div>
-            <div>
-              <i></i>
+            <div class="pack">
+              <i class="fas fa-filter"></i>
               <div>
                 <h4>Pharmacy</h4>
                 <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
               </div>
             </div>
-            <div>
-              <i></i>
+            <div class="pack">
+              <i class="fas fa-user-md"></i>
               <div>
                 <h4>Sleep center</h4>
                 <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
@@ -221,41 +221,54 @@
     </section>
     <section id="doctors">
       <div class="title">
-        <h2>Doctors</h2>
+        <h1>Doctors</h1>
         <p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
       </div>
+      <div class="line"></div>
       <ul>
-        <li><a>ALL</a></li>
-        <li><a>CARDIOLOGIST</a></li>
-        <li><a>PSYCHIATRIST</a></li>
-        <li><a>NEUROLOGIST</a></li>
+        <li>ALL</li>
+        <li>CARDIOLOGIST (2)</li>
+        <li>PSYCHIATRIST (1)</li>
+        <li>NEUROLOGIST (1)</li>
       </ul>
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <div>
-              <img src="">
+            <div class="text-center">
+              <div class="layer">
+                <p>VIEW PROFILE</p>
+              </div>
+              <img src="images/doctors/1.jpg">
               <span>Alice Grue</span>
               <p>Psychiatrist</p>
             </div>
           </div>
           <div class="col-md-3">
-            <div>
-              <img src="">
+            <div class="text-center">
+              <div class="layer">
+                <p>VIEW PROFILE</p>
+              </div>
+              <img src="images/doctors/2.jpg">
               <span>Joseph Murphy</span>
               <p>Cardiologist</p>
             </div>
           </div>
           <div class="col-md-3">
-            <div>
-              <img src="">
+            <div class="text-center">
+              <div class="layer">
+                <p>VIEW PROFILE</p>
+              </div>
+              <img src="images/doctors/3.jpg">
               <span>Alison Davis</span>
               <p>Cardiologist</p>
             </div>
           </div>
           <div class="col-md-3">
-            <div>
-              <img src="">
+            <div class="text-center">
+              <div class="layer">
+                <p>VIEW PROFILE</p>
+              </div>
+              <img src="images/doctors/4.jpg">
               <span>Adam Taylor</span>
               <p>Neurologist</p>
             </div>
@@ -268,6 +281,7 @@
         <h1>Our facillities</h1>
         <p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
       </div>
+      <div class="line"></div>
       <div></div>
       <div></div>
     </section>
@@ -276,6 +290,7 @@
         <h1>Health packages</h1>
         <p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
       </div>
+      <div class="line"></div>
       <div>
         <div class="pack">
           <span><p>Basic Fit 1 Package</p></span>
@@ -357,7 +372,7 @@
         <h1>Our partner</h1>
         <p>Take charge of your health today with our specially designed health packages</p>
       </div>
-      <div>
+      <div class="line"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -379,47 +394,55 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <p>ABOUT MEDICO</p>
-            <p>Lorem ipsum dolor sit amet, ne nam purto nihil impetus, an facilisi accommodare sea</p>
-            <p>INFORMATION</p>
+            <p class="footer-title">ABOUT MEDICO</p>
+            <p class="footer-text">Lorem ipsum dolor sit amet, ne nam purto nihil impetus, an facilisi accommodare sea</p>
+            <p class="footer-title">INFORMATION</p>
             <p>Home<br>Laboratory<br>Medical treatment<br>Terms & Conditions</p>
           </div>
           <div class="col-md-4">
-            <p>MEDICIO CENTER</p>
-            <p>Nam leo lorem, tincidunt id risus ut, ornare tincidunt naqunc sit amet.</p>
-            <div>
-              <span>
-                <div><i></i></div>
-                <p>Monday - Saturday, 8am to 10pm</p>
+            <p class="footer-title">MEDICIO CENTER</p>
+            <p class="footer-text">Nam leo lorem, tincidunt id risus ut, ornare tincidunt naqunc sit amet.</p>
+            <div >
+              <span class="contacts">
+                <div><i class="fas fa-calendar"></i></div>
+                <p class="footer-text">Monday - Saturday, 8am to 10pm</p>
               </span>
-              <span>
-                <div><i></i></div>
-                <p>+62 0888 904 711</p>
+              <span class="contacts">
+                <div><i class="fas fa-phone"></i></div>
+                <p class="footer-text">+62 0888 904 711</p>
               </span>
-              <span>
-                <div><i></i></div>
-                <p>hello@medicio.com</p>
+              <span class="contacts">
+                <div><i class="fas fa-envelope"></i></div>
+                <p class="footer-text">hello@medicio.com</p>
               </span>
             </div>
           </div>
           <div class="col-md-4">
-            <p>OUR LOCATION</p>
-            <p>The Suithouse V303, Kuningan City, Jakarta Indonesia 12940</p>
-            <p>FOLLOW US</p>
+            <p class="footer-title">OUR LOCATION</p>
+            <p class="footer-text">The Suithouse V303, Kuningan City, Jakarta Indonesia 12940</p>
+            <p class="footer-title">FOLLOW US</p>
             <div>
-              <a><i></i></a>
-              <a><i></i></a>
-              <a><i></i></a>
-              <a><i></i></a>
-              <a><i></i></a>
+              <i class="fa fa-facebook"></i>
+              <i class="fas fa-twitter"></i>
+              <i class="fas fa-google-plus-g"></i>
+              <a class="media" href="#"><i class="fab fa-vimeo-square"></i></a>
+              <a class="media" href="#"><i class="fab fa-dribbble"></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section id="footer">
-      <p>Copyright 2019 - Poland. All rights reserved.</p>
-      <p>Bootstrap Themes by <span>Predrix</span></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Copyright 2019 - Poland. All rights reserved.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Bootstrap Themes by <span>Predrix</span></p>
+          </div>
+        </div>
+      </div>
       <div class="mover"></div>
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

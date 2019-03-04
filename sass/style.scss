@@ -290,12 +290,52 @@ img :hover .layer {
 			opacity: 0.8;
 			transition: 0.3s;
 }
+/* ===== packages ==== */
+#packages {
+	background-color: #F5F5F5;
+	.col-sm-4 {
+		margin-top: 100px;
+		color: #fff;
+	}
+	li {
+		display: flex;
+		border-bottom: 1px solid #e8e8e8;
+		background: #fff;
+		i {
+
+			font-size: 10px;
+			color: green;
+		}
+	}
+}
+.pack {
+	display: block;
+	margin: 0;
+	.name {
+		background-color: #989898;
+		color: #fff;
+		margin: 0;
+		p {
+			color: #fff;
+		}
+	}
+	.prize {
+		margin: 0;
+		background-color: $medium-grey;
+		p {
+			color: #fff;
+			
+		}
+	}
+
+}
 
 /* ===== logo =====*/ 
 
 #logo {
 	padding-top: 80px;
 	margin-bottom: 80px;
+	
 }
 
 /* ===== contact =====*/ 
@@ -332,13 +372,29 @@ img :hover .layer {
 		margin-top: 5px;
 	}
 }
-.media {
+.social {
 	display: flex;
+	justify-content: left;
+}
+.media {
+	paddig: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: black;
+	margin-right: 5px;
 	&:hover {
 		text-decoration: none;
 	}
-	i {
-		font-size: 15px;
+	a {
+		display: block;
+		height: 20px;
+		width: 20px;
+		margin-top: 10px;
+		i {
+			color: #fff;
+			font-size: 15px;
+		}
 	}
 }
 /* ===== footer =====*/

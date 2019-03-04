@@ -282,6 +282,35 @@ img :hover .layer {
   opacity: 0.8;
   transition: 0.3s; }
 
+/* ===== packages ==== */
+#packages {
+  background-color: #F5F5F5; }
+  #packages .col-sm-4 {
+    margin-top: 100px;
+    color: #fff; }
+  #packages li {
+    display: flex;
+    border-bottom: 1px solid #e8e8e8;
+    background: #fff; }
+    #packages li i {
+      font-size: 10px;
+      color: green; }
+
+.pack {
+  display: block;
+  margin: 0; }
+  .pack .name {
+    background-color: #989898;
+    color: #fff;
+    margin: 0; }
+    .pack .name p {
+      color: #fff; }
+  .pack .prize {
+    margin: 0;
+    background-color: #686868; }
+    .pack .prize p {
+      color: #fff; }
+
 /* ===== logo =====*/
 #logo {
   padding-top: 80px;
@@ -319,12 +348,27 @@ img :hover .layer {
   .contacts p {
     margin-top: 5px; }
 
+.social {
+  display: flex;
+  justify-content: left; }
+
 .media {
-  display: flex; }
+  paddig: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: black;
+  margin-right: 5px; }
   .media:hover {
     text-decoration: none; }
-  .media i {
-    font-size: 15px; }
+  .media a {
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px; }
+    .media a i {
+      color: #fff;
+      font-size: 15px; }
 
 /* ===== footer =====*/
 #footer {
